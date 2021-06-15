@@ -1,0 +1,18 @@
+#questions-view {
+  .title {
+    margin: 10px 24px;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 150%;
+    color: #18181b;
+  }
+  .sub-title {
+    margin-left: 24px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #27272a;
+    max-height: 25%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

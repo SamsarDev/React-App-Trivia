@@ -1,0 +1,33 @@
+li {
+  list-style: none;
+  margin-bottom: 0.8rem;
+  span {
+    color: #000000;
+    font-size: 16px;
+    line-height: 150%;
+    &.ok::before {
+      content: "";
+      display: block;
+      background-image: url("../../assets/check.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 1.3rem;
+      width: 1.3rem;
+      float: left;
+      margin: 0 10px 0 0;
+    }
+    &.error::before {
+      content: "";
+      display: block;
+      background-image: url("../../assets/cross.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 1.3rem;
+      width: 1.3rem;
+      float: left;
+      margin: 0 10px 0 0;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.badge.default {
+  padding: 5px 16px;
+  border-radius: 999px;
+  margin: 0 10px;
+  width: 2rem;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3f3f46;
+}
+.badge.score {
+  position: absolute;
+  bottom: 17px;
+  width: 135px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #3730a3;
+  border-radius: 999px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.badge.score .badge-title {
+  padding: 4px 8px;
+  background: #6366F1;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bolder;
+  line-height: 150%;
+}
+.badge.score .badge-value {
+  font-size: 16px;
+  line-height: 150%;
+  color: #e0e7ff;
+}
+
+/*# sourceMappingURL=Badge.css.map */
